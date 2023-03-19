@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网站标题 -->
+    <title>一梦闲人</title>
+    <!-- 网站logo -->
+    <link rel="shortcut icon" href="earth.ico" type="image/x-icon">
+    <!-- bootstrap4.0引用 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Font Awesome图标文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- CSS样式文件加载 -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container d-flex flex-column justify-content-center mt-5">
+        <!-- 巨幕 -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-white">
+              <h1 class="font-weight-bold" id="title1">庄周梦蝶</h1>
+              <p class="lead" id="title2">不知周之梦为胡蝶与，胡蝶之梦为周与？</p>
+            </div>
+        </div>
+        <!-- 菜单 -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded mb-3">
+            <a class="navbar-brand" href="#">
+                <img src="Logo.png" alt="Logo" style="max-width: 30px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="nav">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#message" id="nav">信息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tools" id="nav">技能</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#web" id="nav">网站</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" id="nav">联系</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- 内容 -->
+        <div class="m-auto" style="max-width: 900px;">
+            <!-- 信息 -->
+            <div class="card mb-3 p-2 border-0" id="message">
+                <div class="card-body">
+                    <h5 class="font-weight-bold">- 信息</h5>
+                </div>
+                <div class="card-body d-flex flex-row  flex-wrap pt-1">
+                    <div class="col-md-4 p-2">
+                        <img src="head.jpg" alt="" style="max-width: 200px; border: solid 2px black;">
+                    </div>
+                    <div class="col-md-8">
+                        <p>性别：男</p>
+                        <p>年龄：28</p>
+                        <p>所在地：山西省</p>
+                        <p>行业：建筑工程业</p>
+                        <p>学历：本科</p>
+                        <p>爱好：电子产品、骑行、运动、网页搭建、Cook、Breaking......</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 技能 -->
+            <div class="card mb-3 p-2 border-0" id="tools">
+                <div class="card-body">
+                    <h5 class="font-weight-bold">- 技能</h5>
+                </div>
+                <div class="pl-3 pr-3">
+                    <p>Excel</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                    </div>
+    
+                    <p>Photoshop</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
+                    </div>
+
+                    <p>Premiere</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
+                    </div>
+
+                    <p>Python</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                    </div>
+    
+                    <p>HTML5</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                    </div>
+                    
+                    <p>CSS3</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                    </div>
+                    
+                    <p>Linux系统</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                    </div>
+
+                    <p>树莓派</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                    </div>
+
+                    <p>Access</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 经历 -->
+            <div class="card mb-3 p-2 border-0" id="web">
+                <div class="card-body">
+                    <h5 class="font-weight-bold">- 网站</h5>
+                </div>
+                <div class="card-body d-flex flex-column pt-1">
+                    <div class="col-md-8">
+                        <h6 class="font-weight-bold">⌈ 阐微草堂 ⌋</h6>
+                        <p>接触个人博客也有几年，上个月基于腾讯云活动，重新改版部署建立了个人博客，用以分享生活，记录学习。</p>
+                            <a href="http://43.143.181.108/" class="p-2" id="web-link">浏览博客 ></a>
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+                <div class="card-body d-flex flex-column pt-1">
+                    <div class="col-md-8">
+                        <h6 class="font-weight-bold">⌈ 刘小备の导航 ⌋</h6>
+                        <p>Notion作为一款优秀的笔记应用，不仅可以用来记录笔记，还可以利用其制作一个导航网站。</p>    
+                            <a href="https://www.notion.so/876442c8073848e8aec52d5f2e483a94" class="p-2" id="web-link">
+                                浏览导航站 >
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- 联系 -->
+            <div class="card mb-3 p-2 border-0" id="contact">
+                <div class="card-body">
+                    <h5 class="font-weight-bold">- 联系</h5>
+                </div>
+                <div class="card-body d-flex flex-column pt-1">
+                    <p class="card-text">
+                        • 📮邮箱：<a href="mailto:ymxr0517@163.com" target="_blank" id="contact-link">查看🔍</a>
+                    </p>
+                    <p class="card-text">
+                        • ✏️知乎：<a href="https://www.zhihu.com/people/geek_lxb" target="_blank" id="contact-link">查看🔍</a>
+                    </p>
+                    <p class="card-text">
+                        • 🫘豆瓣：<a href="https://www.douban.com/people/188989476/?_i=9203212WtYITny" target="_blank" id="contact-link">查看🔍</a> <br>
+                    </p>
+                    <p class="card-text">
+                        • 📺B 站：<a href="https://space.bilibili.com/382666969" target="_blank" id="contact-link">查看🔍</a>
+                    </p>
+                    <p class="card-text">
+                        • 📦GitHub：<a href="https://github.com/ymxr" target="_blank" id="contact-link">查看🔍</a> <br>
+                    </p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

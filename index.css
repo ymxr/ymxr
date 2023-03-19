@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    font-family: monospace, sans-serif;
+}
+
+/* 网页背景 */
+.jumbotron {
+    background-image: url(bg.jpg);
+    background-position: center center;
+}
+
+#nav {
+    color: white;
+}
+#nav:hover {
+    color:#24c6dc;
+}
+
+/* 技能标签 */
+#tag {
+    width: 150px;
+    color: white;
+    background-image: linear-gradient(to right, #dd5e89, #f7bb97);
+    transition: .5s ease-in;
+}
+#tag:hover {
+    box-shadow: 0 0 30px #dd5e89;
+}
+
+/* 网站链接 */
+#web-link {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #24c6dc, #514a9d);
+    border: none;
+    display: block;
+    width: 150px;
+    transition: .5s ease-in;
+}
+#web-link:hover {
+    box-shadow: 0 0 30px #514a9d;
+}
+
+/* 联系链接 */
+#contact-link {
+    text-decoration: none;
+    color: black;
+}
+#contact-link:hover {
+    color:#24c6dc;
+}
+
+@media (max-width: 720px) {
+    #title1 {
+        font-size: 20px;
+    }
+    #title2 {
+        font-size: 10px;
+    }
+}
